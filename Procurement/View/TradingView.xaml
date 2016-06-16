@@ -51,6 +51,9 @@
             <TabItem Header="Trade Settings" Style="{StaticResource NonImages}">
                 <poe:BuyoutSettings />
             </TabItem>
+            <TabItem Header="Autopricing" Style="{StaticResource NonImages}">
+                <poe:Autoprice />
+            </TabItem>
         </TabControl>
     </Grid>
 </UserControl>
